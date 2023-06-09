@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" onclick="jump()" onkeypress="jump()">
 <head>
+    <script>
+        function sta(){};
+        function jump(){};
+        function check(){};
+    </script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,10 +17,17 @@
         https://github.com/Beat0154/easiest-game-ever 
         https://www.youtube.com/watch?v=bG2BmmYr9NQ
     -->
-    <div id="game">
-        <div id="character"></div>
+    <p>Score: <span id="scoreSpan"></span></p>
+    <br>
+    <p>Best Score: <span id="scorebest">0</span></p>
+    <div class="game">
+        <div id="character">
+        </div>
         <div id="block"></div>
     </div>
+    <h1 id="btns" onclick="this.style.display='none';sta()">
+      Start The Game
+    </h1>
 </body>
 <script src="script.js"></script>
 </html>
