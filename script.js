@@ -31,7 +31,7 @@ function dead() {
     clearInterval(core);
     console.log("dead");
     alert("Game Over. score: "+Math.floor(counter/100));
-    var sb = document.getElementById("scorebest");
+    let sb = document.getElementById("scorebest");
     if (sb.innerHTML < Math.floor(counter / 100)) {
       sb.innerHTML = Math.floor(counter / 100);
     }
