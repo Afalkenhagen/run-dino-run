@@ -8,6 +8,10 @@
     height: 200px;
     border: 1px solid black;
     margin: auto;
+    background-image: url("/img/background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #character{
     width: 37px;
@@ -32,15 +36,15 @@
 }
 
 #block{
-    background-color: blue;
-    width: 20px;
-    height: 20px;
+    background-color: transparent;
+    width: 26px;
+    height: 30px;
     position: relative;
-    top: 130px;
+    top: 120px;
     left: 500px;
 }
 .cactus{
-    width: 100%;
+    width: 60%;
 }
 .animateb{
     animation: block 1s infinite linear;
