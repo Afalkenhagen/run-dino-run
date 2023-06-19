@@ -27,7 +27,7 @@ Contributions are welcome and I would love for you to be involved in the develop
 
 ## Credits
 
-This project was created by [Author's Name](https://github.com/AuthorName).
+This project was created by [AFalken](https://github.com/Afalkenhagen).
 
 We would like to thank the following open-source resources that made this project possible:
 
